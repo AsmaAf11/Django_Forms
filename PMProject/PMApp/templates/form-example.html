@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% csrf_token%}
+{{ form.as_p }}
+<p>
+    <button type="submit" name="button_element" value="Button Element">
+        Button with <strong>Styled</strong> Text
+    </button>
+</p>
+
+</body>
+</html>
